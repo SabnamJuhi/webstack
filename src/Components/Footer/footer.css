@@ -1,0 +1,25 @@
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    background-color: #F0D3D5;
+   
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 6rem;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-2>:nth-child(1){
+    font-weight: bold;
+}
+.footer-3>:nth-child(1){
+    font-weight: bold;
+}
+.footer-last{
+    background-color: #454545;
+    padding: 1rem;
+    color: white;
+}

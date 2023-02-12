@@ -1,0 +1,36 @@
+.Rating-div{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    padding: auto;
+    border: 2px solid #a4eff5;
+    justify-content: space-around ;
+}
+.rating-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    width: 50%;
+    justify-content: center;
+    gap: 1rem;
+}
+.rating-1>:nth-child(1){
+    font-weight: bold;
+    font-size:x-large;
+    color: #150D63;
+}
+.rating-1>img{
+    width: 4rem;
+    padding-left: 5.6rem;
+    
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-sizing: 20px;
+    width: 50%;
+    padding: 2rem;
+    gap: 1rem;
+}
